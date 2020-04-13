@@ -30,13 +30,13 @@ desktop: 1920x1080 120Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.964300 ms
+UnloadTime: 1.035200 ms
 Učitavanje razine Game
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.318200 ms
+UnloadTime: 4.771900 ms
 MusicPlayer: loaded level1
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -47,8 +47,8 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename:  Line: -1)
 
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 346.
-Total: 0.292600 ms (FindLiveObjects: 0.054400 ms CreateObjectMapping: 0.028700 ms MarkObjects: 0.204100 ms  DeleteObjects: 0.004500 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 344.
+Total: 0.227300 ms (FindLiveObjects: 0.017800 ms CreateObjectMapping: 0.012300 ms MarkObjects: 0.192100 ms  DeleteObjects: 0.004400 ms)
 
 NullReferenceException: Object reference not set to an instance of an object
   at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
@@ -74,118 +74,14 @@ NullReferenceException: Object reference not set to an instance of an object
  
 (Filename:  Line: -1)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
+Rezultat
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 NullReferenceException: Object reference not set to an instance of an object
   at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
   at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
   at PonasanjeNeprijatelja.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -214,8 +110,28 @@ NullReferenceException: Object reference not set to an instance of an object
 NullReferenceException: Object reference not set to an instance of an object
   at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
   at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -231,51 +147,6 @@ NullReferenceException: Object reference not set to an instance of an object
   at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
   at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
   at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
-  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
-  at PonasanjeNeprijatelja.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -321,6 +192,136 @@ NullReferenceException: Object reference not set to an instance of an object
   at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
   at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
   at PonasanjeNeprijatelja.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position, Single volume) [0x00000] in <filename unknown>:0 
+  at UnityEngine.AudioSource.PlayClipAtPoint (UnityEngine.AudioClip clip, Vector3 position) [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.Fire () [0x00000] in <filename unknown>:0 
+  at PonasanjeNeprijatelja.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -353,35 +354,35 @@ Učitavanje razine Win
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.677600 ms
+UnloadTime: 0.748900 ms
 MusicPlayer: loaded level2
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 282.
-Total: 0.307000 ms (FindLiveObjects: 0.017300 ms CreateObjectMapping: 0.012900 ms MarkObjects: 0.201000 ms  DeleteObjects: 0.075200 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 282.
+Total: 0.296400 ms (FindLiveObjects: 0.037400 ms CreateObjectMapping: 0.013500 ms MarkObjects: 0.162800 ms  DeleteObjects: 0.082100 ms)
 
 Učitavanje razine Start
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.359000 ms
+UnloadTime: 0.474300 ms
 MusicPlayer: loaded level0
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 
 Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 288.
-Total: 0.196200 ms (FindLiveObjects: 0.016800 ms CreateObjectMapping: 0.011200 ms MarkObjects: 0.163000 ms  DeleteObjects: 0.004400 ms)
+Total: 0.183800 ms (FindLiveObjects: 0.015200 ms CreateObjectMapping: 0.011000 ms MarkObjects: 0.153300 ms  DeleteObjects: 0.003700 ms)
 
 Gašenje!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: 2cf4 -> priority: 1 
-  Thread -> id: 524c -> priority: 1 
-  Thread -> id: 451c -> priority: 1 
-  Thread -> id: 1a58 -> priority: 1 
+  Thread -> id: 7f20 -> priority: 1 
+  Thread -> id: 43a4 -> priority: 1 
+  Thread -> id: 495c -> priority: 1 
+  Thread -> id: 7fa0 -> priority: 1 

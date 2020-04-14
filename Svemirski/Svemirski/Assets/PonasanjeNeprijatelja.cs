@@ -25,20 +25,21 @@ public class PonasanjeNeprijatelja : MonoBehaviour {
 
 
 	// Use this for initialization
-	void OnTriggerEnter2D (Collider2D collider) {
-		projektil missile = collider.gameObject.GetComponent<projektil>();
+	void OnTriggerEnter2D (Collider2D collision) {
+		projektil missile = collision.gameObject.GetComponent<projektil>();
 		if (missile)
 		{
 			missile.Hit();
 			snaga -= missile.GetDamage();
 			if (snaga <= 0)
 			{
-				AudioSource.PlayClipAtPoint(zvukUnistenja, transform.position);
+				/*AudioSource.PlayClipAtPoint(zvukUnistenja, transform.position);*/
 				Die();
-
+				AudioSource.PlayClipAtPoint(zvukUnistenja, transform.position);
 			}
+			
 		}
-		
+
 	}
 	
 	// Update is called once per frame
@@ -53,8 +54,8 @@ public class PonasanjeNeprijatelja : MonoBehaviour {
 	void Fire()
 	{
 		Vector3 offset = new Vector3(0, -1.0f, 0);
-		Vector3 polozajpucnja = transform.position + offset;
-		GameObject missile = Instantiate(projektil, polozajpucnja, Quaternion.identity) as GameObject;
+		Vector3 polozajPucanja = transform.position + offset;
+		GameObject missile = Instantiate(projektil, polozajPucanja, Quaternion.identity);
 		missile.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -brzinaProjektila);
 		AudioSource.PlayClipAtPoint(zvukPucnja, transform.position);
 	}

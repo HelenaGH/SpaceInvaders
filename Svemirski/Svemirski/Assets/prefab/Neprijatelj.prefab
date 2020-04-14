@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 50962520990531104}
   - component: {fileID: 61102996615728072}
   - component: {fileID: 114383343818231524}
-  - component: {fileID: 95214815178265826}
   m_Layer: 9
   m_Name: Neprijatelj
   m_TagString: Untagged
@@ -87,25 +86,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.03, y: 0.84}
+  m_Size: {x: 0.09, y: 0.54}
   m_EdgeRadius: 0
---- !u!95 &95214815178265826
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1620653642286184}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 01df389c9b6fe624aba3ebab25378572, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114383343818231524
 MonoBehaviour:
   m_ObjectHideFlags: 1

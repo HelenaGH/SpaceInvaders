@@ -23,6 +23,29 @@ public class NeprijateljSpawner : MonoBehaviour {
 		xmin = lijevaGranica.x;
 		DodavanjeNeprijatelja();
 }
+
+	void OzivljavanjeNeprijatelja()
+	{
+		foreach (Transform child in transform)
+		{
+			GameObject neprijatelj = Instantiate(neprijateljPrefab, child.position, Quaternion.identity) as GameObject;
+			neprijatelj.transform.parent = child;
+		}
+	}
+
+	void DodavanjeNeprijatelja()
+	{
+		Transform praznaPozicija = PrvaPraznaPozicija();
+		if (praznaPozicija)
+		{
+			GameObject neprijatelj = Instantiate(neprijateljPrefab, praznaPozicija.transform.position, Quaternion.identity) as GameObject;
+			neprijatelj.transform.parent = praznaPozicija;
+		}
+		if (PrvaPraznaPozicija())
+		{
+			Invoke("DodavanjeNeprijatelja", odgodaNastanka);
+		}
+	}
 	public void OnDrawGizmos()
 	{
 		Gizmos.DrawWireCube(transform.position, new Vector3(sirina, visina));
@@ -56,9 +79,9 @@ public class NeprijateljSpawner : MonoBehaviour {
 	}
 	bool AllMembersDead()
 	{
-		foreach (Transform childPositionGameObject in transform)
+		foreach (Transform childpositionGameObject in transform)
 		{
-			if(childPositionGameObject.childCount > 0)
+			if(childpositionGameObject.childCount > 0)
 			{
 				return false;
 			}
@@ -66,28 +89,9 @@ public class NeprijateljSpawner : MonoBehaviour {
 		return true;
 	}
 
-	void OzivljavanjeNeprijatelja()
-	{
-		foreach (Transform child in transform)
-		{
-			GameObject neprijatelj = Instantiate(neprijateljPrefab, child.transform.position, Quaternion.identity) as GameObject;
-			neprijatelj.transform.parent = child;
-		}
-	}
 
-	void DodavanjeNeprijatelja()
-	{
-		Transform praznaPozicija = PrvaPraznaPozicija();
-		if (praznaPozicija)
-		{
-			GameObject neprijatelj = Instantiate(neprijateljPrefab, praznaPozicija.transform.position, Quaternion.identity) as GameObject;
-			neprijatelj.transform.parent = praznaPozicija;
-		}
-		if (PrvaPraznaPozicija())
-		{
-			Invoke("DodavanjeNeprijatelja", odgodaNastanka);
-		}
-	}
+
+
 	Transform PrvaPraznaPozicija()
 	{
 		foreach (Transform childPositionGameObject in transform)

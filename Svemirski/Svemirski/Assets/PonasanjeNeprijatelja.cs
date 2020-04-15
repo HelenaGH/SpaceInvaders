@@ -34,12 +34,13 @@ public class PonasanjeNeprijatelja : MonoBehaviour {
 			if (snaga <= 0)
 			{
 				/*AudioSource.PlayClipAtPoint(zvukUnistenja, transform.position);*/
-				Die();
 				AudioSource.PlayClipAtPoint(zvukUnistenja, transform.position);
+				Die();
+				
 			}
 			
 		}
-
+		
 	}
 	
 	// Update is called once per frame
